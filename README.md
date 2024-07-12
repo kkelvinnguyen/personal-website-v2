@@ -12,6 +12,6 @@ Currently Fixing:
 Improving responsiveness for phones.
 Previous Versions:
 
-Version 1.0 - WEBSITE LAUNCH!
-Version 1.1 - Minor Fixes
-Version 1.2 - Improving Responsiveness Version 1.3 - New Project
+  Version 1.0 - WEBSITE LAUNCH!
+  Version 1.1 - Minor Fixes
+  Version 1.2 - Improving Responsiveness Version 1.3 - New Project
