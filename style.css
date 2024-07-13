@@ -172,9 +172,9 @@ body {
 
 .projectspage {
     width: 100vw;
-    height: 165vh;
+    height: auto;
     background-color: #E7E7E7;
-    padding-bottom: 40vh;
+    padding-bottom: 8vh;
 }
 
 .smallmessage {
