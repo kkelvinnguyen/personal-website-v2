@@ -681,3 +681,45 @@ body {
         width: 100vw;
     }
 }
+
+@media only screen and (max-width: 390) {
+
+    .boldtitle {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .boldertitlek {
+        font-size: 100px;
+    }
+
+    .boldertitlee {
+        font-size: 100px;
+    }
+
+    .boldertitlel {
+        font-size: 100px;
+    }
+
+    .boldertitlev {
+        font-size: 100px;
+    }
+
+    .boldertitlei {
+        font-size: 100px;
+    }
+
+    .boldertitlen {
+        font-size: 100px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        max-width: 90vw;
+    }
+
+    .smallmessage {
+        font-size: 7px;
+        width: 100vw;
+    }
+}
