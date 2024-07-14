@@ -41,7 +41,6 @@ body {
     height: 90vh;
     background-color: #E7E7E7;
     display: flex;
-    padding-bottom: 10vh;
     flex-direction: row;
     padding-right: 3vw;
 }
@@ -415,7 +414,7 @@ body {
 
 .contacts {
     display: flex;
-    max-width: 23vw;
+    width: 23vw;
     height: 18vh;
     margin-top: 3vh;
     margin-left: 3.7vw;
@@ -509,6 +508,10 @@ body {
 @media only screen and (max-width: 1110px) {
     .camera {
         display: none;
+    }
+
+    .contacts {
+        width: 80vw;
     }
 }
 
@@ -679,6 +682,105 @@ body {
     .smallmessage {
         font-size: 10px;
         width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .landingpage {
+        height: 65vh;
+    }
+
+    #proj {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titletext {
+        font-size: 35px;
+        width: 90vw;
+    }
+
+    .imgtop {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .bodytext {
+        font-size: 18px;
+        width: 85vw;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        max-width: 44vw;
+    }
+
+    .smallmessage {
+        font-size: 10px;
+        width: 100vw;
+    }
+
+    .boldertitlek {
+        font-size: 140px;
+    }
+
+    .boldertitlee {
+        font-size: 140px;
+    }
+
+    .boldertitlel {
+        font-size: 140px;
+    }
+
+    .boldertitlev {
+        font-size: 140px;
+    }
+
+    .boldertitlei {
+        font-size: 140px;
+    }
+
+    .boldertitlen {
+        font-size: 140px;
+    }
+
+}
+
+@media only screen and (max-width: 638px) {
+    .subtitle {
+        font-size: 20px;
+        max-width: 48vw;
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    .subtitle {
+        font-size: 20px;
+        max-width: 55vw;
+    }
+
+    .boldertitlek {
+        font-size: 105px;
+    }
+
+    .boldertitlee {
+        font-size: 105px;
+    }
+
+    .boldertitlel {
+        font-size: 105px;
+    }
+
+    .boldertitlev {
+        font-size: 105px;
+    }
+
+    .boldertitlei {
+        font-size: 105px;
+    }
+
+    .boldertitlen {
+        font-size: 105px;
     }
 }
 
