@@ -1,5 +1,5 @@
 # kkelvinnguyen.github.io
-My personal website coded using HTML, CSS and JSS.
+My personal website coded using HTML, CSS and JS.
 
 My personal website using HTML, CSS and JS. Responsive for Computers, iPads and iPhones.
 
