@@ -80,10 +80,10 @@ body {
 
 .name {
     display: flex;
-    font-size: 110px;
+    font-size: min(8vw, 80px);
     letter-spacing: 25px;
     color: #0D4ED6;
-    padding-top: 3vh;
+    padding-top: min(3vh, 40px);
 }
 
 .boldtitle {
@@ -461,35 +461,6 @@ body {
         height: 80vh;
     }
 
-    .boldtitle {
-        font-weight: 500;
-        font-size: 40px;
-    }
-
-    .boldertitlek {
-        font-size: 200px;
-    }
-
-    .boldertitlee {
-        font-size: 200px;
-    }
-
-    .boldertitlel {
-        font-size: 200px;
-    }
-
-    .boldertitlev {
-        font-size: 200px;
-    }
-
-    .boldertitlei {
-        font-size: 200px;
-    }
-
-    .boldertitlen {
-        font-size: 200px;
-    }
-
     .subtitle {
         font-size: 32px;
     }
@@ -528,30 +499,6 @@ body {
         font-size: 35px;
     }
 
-    .boldertitlek {
-        font-size: 180px;
-    }
-
-    .boldertitlee {
-        font-size: 180px;
-    }
-
-    .boldertitlel {
-        font-size: 180px;
-    }
-
-    .boldertitlev {
-        font-size: 180px;
-    }
-
-    .boldertitlei {
-        font-size: 180px;
-    }
-
-    .boldertitlen {
-        font-size: 180px;
-    }
-
     .smallmessage {
         font-size: 11px;
     }
@@ -576,30 +523,6 @@ body {
         width: 100vw;
     }
 
-    .boldertitlek {
-        font-size: 140px;
-    }
-
-    .boldertitlee {
-        font-size: 140px;
-    }
-
-    .boldertitlel {
-        font-size: 140px;
-    }
-
-    .boldertitlev {
-        font-size: 140px;
-    }
-
-    .boldertitlei {
-        font-size: 140px;
-    }
-
-    .boldertitlen {
-        font-size: 140px;
-    }
-
 }
 
 @media only screen and (max-width: 638px) {
@@ -614,30 +537,6 @@ body {
         font-size: 20px;
         max-width: 55vw;
     }
-
-    .boldertitlek {
-        font-size: 105px;
-    }
-
-    .boldertitlee {
-        font-size: 105px;
-    }
-
-    .boldertitlel {
-        font-size: 105px;
-    }
-
-    .boldertitlev {
-        font-size: 105px;
-    }
-
-    .boldertitlei {
-        font-size: 105px;
-    }
-
-    .boldertitlen {
-        font-size: 105px;
-    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -648,30 +547,6 @@ body {
     .boldtitle {
         font-weight: 500;
         font-size: 30px;
-    }
-
-    .boldertitlek {
-        font-size: 110px;
-    }
-
-    .boldertitlee {
-        font-size: 110px;
-    }
-
-    .boldertitlel {
-        font-size: 110px;
-    }
-
-    .boldertitlev {
-        font-size: 110px;
-    }
-
-    .boldertitlei {
-        font-size: 110px;
-    }
-
-    .boldertitlen {
-        font-size: 110px;
     }
 
     .subtitle {
@@ -720,30 +595,6 @@ body {
         width: 100vw;
     }
 
-    .boldertitlek {
-        font-size: 140px;
-    }
-
-    .boldertitlee {
-        font-size: 140px;
-    }
-
-    .boldertitlel {
-        font-size: 140px;
-    }
-
-    .boldertitlev {
-        font-size: 140px;
-    }
-
-    .boldertitlei {
-        font-size: 140px;
-    }
-
-    .boldertitlen {
-        font-size: 140px;
-    }
-
 }
 
 @media only screen and (max-width: 638px) {
@@ -757,62 +608,6 @@ body {
     .subtitle {
         font-size: 20px;
         max-width: 55vw;
-    }
-
-    .boldertitlek {
-        font-size: 105px;
-    }
-
-    .boldertitlee {
-        font-size: 105px;
-    }
-
-    .boldertitlel {
-        font-size: 105px;
-    }
-
-    .boldertitlev {
-        font-size: 105px;
-    }
-
-    .boldertitlei {
-        font-size: 105px;
-    }
-
-    .boldertitlen {
-        font-size: 105px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-
-    .boldtitle {
-        font-weight: 500;
-        font-size: 20px;
-    }
-
-    .boldertitlek {
-        font-size: 100px;
-    }
-
-    .boldertitlee {
-        font-size: 100px;
-    }
-
-    .boldertitlel {
-        font-size: 100px;
-    }
-
-    .boldertitlev {
-        font-size: 100px;
-    }
-
-    .boldertitlei {
-        font-size: 100px;
-    }
-
-    .boldertitlen {
-        font-size: 100px;
     }
 
     .subtitle {
