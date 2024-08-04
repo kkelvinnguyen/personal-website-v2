@@ -824,4 +824,8 @@ body {
         font-size: 7px;
         width: 100vw;
     }
+
+    .contacts {
+        width: 80vw;
+    }
 }
