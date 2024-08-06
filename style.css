@@ -88,7 +88,7 @@ body {
 
 .boldtitle {
     font-weight: 500;
-    font-size: 50px;
+    font-size: 40px;
     color: #0D4ED6;
 }
 
@@ -161,7 +161,7 @@ body {
     background-color: #0D4ED6;
     letter-spacing: 1px;
     padding: 8px 20px;
-    max-width: 36vw;
+    width: 36vw;
 }
 
 #logoImg {
@@ -450,10 +450,6 @@ body {
         font-weight: 500;
         font-size: 39px;
     }
-
-    .subtitle {
-        max-width: 39vw;
-    }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -461,20 +457,11 @@ body {
         height: 80vh;
     }
 
-    .subtitle {
-        font-size: 32px;
-    }
-
     .camera {
         height: 60%;
     }
 }
 
-@media only screen and (max-width: 1147px) {
-    .subtitle {
-        font-size: 29px;
-    }
-}
 
 @media only screen and (max-width: 1110px) {
     .camera {
@@ -486,13 +473,6 @@ body {
     }
 }
 
-@media only screen and (max-width: 1054px) {
-    .subtitle {
-        font-size: 20px;
-    }
-
-}
-
 @media only screen and (max-width: 756px) {
     .boldtitle {
         font-weight: 500;
@@ -501,62 +481,6 @@ body {
 
     .smallmessage {
         font-size: 11px;
-    }
-
-    .subtitle {
-        font-size: 35px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .landingpage {
-        height: 65vh;
-    }
-
-    .subtitle {
-        font-size: 20px;
-        max-width: 44vw;
-    }
-
-    .smallmessage {
-        font-size: 10px;
-        width: 100vw;
-    }
-
-}
-
-@media only screen and (max-width: 638px) {
-    .subtitle {
-        font-size: 20px;
-        max-width: 48vw;
-    }
-}
-
-@media only screen and (max-width: 574px) {
-    .subtitle {
-        font-size: 20px;
-        max-width: 55vw;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .landingpage {
-        height: 60vh;
-    }
-
-    .boldtitle {
-        font-weight: 500;
-        font-size: 30px;
-    }
-
-    .subtitle {
-        font-size: 20px;
-        max-width: 85vw;
-    }
-
-    .smallmessage {
-        font-size: 10px;
-        width: 100vw;
     }
 }
 
@@ -573,6 +497,7 @@ body {
     .titletext {
         font-size: 35px;
         width: 90vw;
+        padding-right: 5vw;
     }
 
     .imgtop {
@@ -622,5 +547,26 @@ body {
 
     .contacts {
         width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .landingpage {
+        height: 60vh;
+    }
+
+    .boldtitle {
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        max-width: 85vw;
+    }
+
+    .smallmessage {
+        font-size: 10px;
+        width: 100vw;
     }
 }
