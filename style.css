@@ -492,10 +492,7 @@ body {
     #proj {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
         padding-right: 5vw;
-=======
->>>>>>> 26eaffd98ef0ac870178452fb808a4f0fd78a473
     }
 
     .titletext {
@@ -577,9 +574,5 @@ body {
     .footer {
         overflow-x: hidden;
     }
-<<<<<<< HEAD
 
 }
-=======
-}
->>>>>>> 26eaffd98ef0ac870178452fb808a4f0fd78a473
